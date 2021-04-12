@@ -81,7 +81,7 @@ export const RDMRecordResultsListItem = ({ result, index }) => {
             </Label> */}
           <Button compact size="small" floated="right">
             <Icon name="eye" />
-            View
+            View as array
           </Button>
         </Item.Extra>
         <Item.Header>{title}</Item.Header>
