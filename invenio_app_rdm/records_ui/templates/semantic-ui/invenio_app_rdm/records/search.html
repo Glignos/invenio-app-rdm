@@ -25,11 +25,11 @@
     },
     {
       "aggName": "resource_type",
-      "field": "resource_type.type",
+      "field": "resource_type.props.type",
       "title": "{{_("Resource types")}}",
       "childAgg": {
         "aggName": "inner",
-        "field": "resource_type.subtype",
+        "field": "resource_type.props.subtype",
         "title": "{{_("Resource types")}}"
       }
     },
